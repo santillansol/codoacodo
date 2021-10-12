@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body {
+
+    align-items:stretch;
+ /*   padding-top: 10%; 
+    padding-bottom: 10%;
+    */
+    background-color: #E5FBB8;
+}
+h1{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+.lead{
+    text-align: center;
+}
+
+.form-signin{
+    text-align: center;
+}
+.form-control{
+    text-align: center;
+}

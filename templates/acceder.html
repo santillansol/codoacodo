@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<h2>Ingresa</h2>
+<hr>
+
+<div class="col text-center">
+    <a href="{{url_for('registrar')}}" class="btn btn-primary " tabindex="-1" role="button" >Registrate</a>
+</div>
+<hr>
+<div class="col text-center">
+    <a href="{{url_for('ingreso')}}" class="btn btn-primary " tabindex="-1" role="button" >Inicia Sesión</a>
+</div>
+
+<form action="">
+    <label for=""> Usuario</label>
+    <input type="text">
+    <label for=""> COntraseña</label>
+    <input type="password">
+    <button> enviar</button>
+    <select name="" id="">
+        <option value="masculino">Masculino</option>
+        <option value="femenino"> Femenino </option>
+    </select>
+</form>
+{% endblock %}
